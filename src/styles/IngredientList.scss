@@ -1,0 +1,9 @@
+@import './index.scss';
+
+.ingredient-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 0.3125em;
+    column-gap: 2.5em;
+    justify-content: flex-start;
+}

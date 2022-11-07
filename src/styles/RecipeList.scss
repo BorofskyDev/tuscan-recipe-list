@@ -1,0 +1,10 @@
+.recipe-list {
+    border-right: 0.0625em solid $clr-create;
+    min-height: 100vh;
+    width: 50%;
+
+    &__add-recipe-btn-container {
+        text-align: center;
+        padding: 1.875em 0;
+    }
+}

@@ -1,0 +1,51 @@
+.recipe {
+    padding: 1.25em;
+    padding-bottom: 2.5em;
+    border-bottom: 0.0625em solid $clr-create;
+    
+    color: $clr-dark;
+
+    &:last-child{
+        border-bottom: none;
+        padding-bottom: 0.625em;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.875em;
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    &__title {
+        margin: 0;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.0625em;
+    }
+
+    &__row {
+        margin-top: 0.625em;
+    }
+
+    &__label {
+        margin-right: 0.3125em;
+        font-family: $ff-heading;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    &__value {
+        line-height: 1.7;
+    }
+
+
+}
+
