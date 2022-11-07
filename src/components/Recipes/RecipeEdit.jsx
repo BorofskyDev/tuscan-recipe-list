@@ -32,7 +32,7 @@ export default function RecipeEdit({ recipe }) {
 
   return (
     <div className='recipe-edit'>
-      <div className='recipe-edit__remote-button-container'>
+      <div className='recipe-edit__remove-button-container'>
         <button
           onClick={() => handleRecipeSelect(undefined)}
           className='btn recipe-edit__remove-button'
