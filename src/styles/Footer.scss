@@ -1,15 +1,11 @@
 @import './index.scss';
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    background-color: $clr-dark;
+    background-color: rgba( $clr-dark, 0.6);
     color: $clr-light;
 
     a {
