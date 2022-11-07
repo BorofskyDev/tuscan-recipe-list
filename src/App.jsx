@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import Footer from './components/Footer/Footer'
 import RecipeEdit from './components/Recipes/RecipeEdit'
 import RecipeList from './components/Recipes/RecipeList'
 import './styles/App.scss'
@@ -69,6 +70,7 @@ function App() {
       <div>
         <RecipeList recipes={recipes} />
         {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}
+      <Footer />
       </div>
     </RecipeContext.Provider>
   )
@@ -128,6 +130,3 @@ const sampleRecipes = [
 ]
 
 export default App
-{
-  /* <a target="_blank" href="https://icons8.com/icon/rR430TkIyuJu/food">Food</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */
-}

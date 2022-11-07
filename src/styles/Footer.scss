@@ -1,0 +1,22 @@
+@import './index.scss';
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: $clr-dark;
+    color: $clr-light;
+
+    a {
+        color: $clr-primary;
+    }
+
+    &__attr {
+        font-size: 0.8rem;
+    }
+}
