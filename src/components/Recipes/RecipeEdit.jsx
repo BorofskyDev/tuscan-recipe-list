@@ -94,7 +94,7 @@ export default function RecipeEdit({ recipe }) {
         />
       </div>
       <br />
-      <label className='recipe-edit__label'>Ingredients</label>
+      <label className='recipe-edit__label--bottom'>Ingredients</label>
       <div className='recipe-edit__ingredient-grid'>
         <div>Name</div>
         <div>Amount</div>

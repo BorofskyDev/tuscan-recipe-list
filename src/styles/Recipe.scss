@@ -12,9 +12,11 @@
 
     &__header {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 1.875em;
+        gap: 1em;
     }
 
     &__btns {
@@ -49,3 +51,11 @@
 
 }
 
+@media (min-width: 45em){
+    .recipe{
+        &__header {
+            flex-direction: row;
+            gap: 0;
+        }
+    }
+}
